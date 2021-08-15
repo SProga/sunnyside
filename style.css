@@ -275,7 +275,7 @@ a.btn--contact {
 .about > .content__left,
 .about > .content__right {
 	justify-content: flex-end;
-	height: 55rem;
+	height: 70rem;
 }
 .about > .content__left {
 	background-image: url("./images/mobile/image-graphic-design.jpg");
@@ -299,6 +299,7 @@ a.btn--contact {
 	align-items: center;
 	width: 80%;
 	margin: 0 auto;
+	padding-top: 3rem;
 	padding-bottom: 3rem;
 }
 
@@ -321,7 +322,7 @@ a.btn--contact {
 }
 
 .testimonials {
-	padding-top: 4rem;
+	padding: 20rem 0;
 }
 .testimonials__title {
 	text-align: center;
