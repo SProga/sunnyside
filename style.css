@@ -275,18 +275,31 @@ a.btn--contact {
 .about > .content__left,
 .about > .content__right {
 	justify-content: flex-end;
-	padding-bottom: 10rem;
-	background-size: cover;
-	background-position: auto;
-	background-repeat: no-repeat;
-	min-height: 60rem;
-	align-items: center;
+	height: 55rem;
 }
 .about > .content__left {
 	background-image: url("./images/mobile/image-graphic-design.jpg");
+	background-size: cover;
+	background-position: auto;
+	background-repeat: no-repeat;
 }
 .about > .content__right {
 	background-image: url("./images/mobile/image-photography.jpg");
+	background-size: cover;
+	background-position: auto;
+	background-repeat: no-repeat;
+}
+
+.content__inner-left,
+.content__inner-right {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	height: 50%;
+	align-items: center;
+	width: 80%;
+	margin: 0 auto;
+	padding-bottom: 3rem;
 }
 
 .about__title {
@@ -294,7 +307,7 @@ a.btn--contact {
 	text-transform: capitalize;
 	color: hsl(167, 40%, 24%);
 	font-weight: 900;
-	margin-bottom: 3rem;
+	margin: 8rem 0 3rem;
 }
 .about__paragraph {
 	font-size: 1.7rem;
@@ -425,6 +438,9 @@ a.btn--contact {
 		background-image: url("./images/desktop/image-photography.jpg");
 		background-position: center;
 	}
+	.about__title {
+		margin: 3rem 0;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -446,6 +462,10 @@ a.btn--contact {
 		justify-content: center;
 		text-align: left;
 	}
+	.content__inner-left,
+	.content__inner-right {
+		justify-content: flex-start;
+	}
 	.brand > .content__left {
 		order: 1;
 	}
@@ -466,9 +486,6 @@ a.btn--contact {
 	.content__wrapper {
 		width: 60%;
 		align-items: flex-start;
-	}
-	.about__paragraph {
-		width: max(50vh, 40%);
 	}
 }
 
@@ -523,6 +540,10 @@ a.btn--contact {
 	.header__title {
 		font-size: 5rem;
 		margin-top: 10rem;
+	}
+	.about > .content__left > .content__inner-left,
+	.about > .content__right > .content__inner-right {
+		width: 50%;
 	}
 }
 
