@@ -474,9 +474,8 @@ a.btn--contact {
 	}
 
 	.content__title {
-		width: 100%;
-		padding-right: 12rem;
-		font-size: 4rem;
+		width: 90%;
+		font-size: 3.5rem;
 	}
 
 	.btn--learn-1,
