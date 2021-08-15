@@ -86,10 +86,10 @@ footer {
 .navbar__hamburger {
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	left: 10%;
 	transform: translate(-50%, -50%);
-	width: 30px;
-	height: 2px;
+	width: 50px;
+	height: 3.5px;
 	border: none;
 	background-color: var(--white);
 }
@@ -97,16 +97,16 @@ footer {
 .navbar__hamburger::after {
 	content: "";
 	position: absolute;
-	height: 2px;
+	height: 3.5px;
 	width: 100%;
 	background-color: var(--white);
 }
 .navbar__hamburger::before {
-	top: -8px;
+	top: -12px;
 	left: 0;
 }
 .navbar__hamburger::after {
-	top: 8px;
+	top: 12px;
 	left: 0;
 }
 
@@ -478,6 +478,7 @@ a.btn--contact {
 		background-color: initial;
 		-webkit-clip-path: inital;
 		clip-path: inital;
+		padding: 1rem 0;
 	}
 
 	.nav__right a {
@@ -494,11 +495,8 @@ a.btn--contact {
 	a.btn--contact {
 		padding: 1.2rem 2rem;
 		background-color: var(--white);
-		border-radius: 30px;
 		color: var(--dark-desaturated-blue);
 		text-transform: uppercase;
-		font-weight: 600;
-		font-family: "Fraunces", serif;
 		transition: background-color 0.2s;
 	}
 	a.btn--contact:hover {
